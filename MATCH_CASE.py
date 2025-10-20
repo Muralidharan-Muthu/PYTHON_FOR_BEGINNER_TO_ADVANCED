@@ -36,7 +36,7 @@ match color:
         print("Go")
     case "Yellow":
         print("Wait")
-    case _: #default case (else)
+    case _:
         print("Unknown traffic signal color")
 
 
